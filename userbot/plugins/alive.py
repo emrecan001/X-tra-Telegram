@@ -11,7 +11,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "**No Name set yet.** [Check Gu
 @command(outgoing=True, pattern="^.alive$")
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
-    await alive.edit("` ___                ___           `\n"
-                     "`| __|_ __  _ _ ___ / __|__ _ _ _  `\n"
-                     "`| _|| '  \| '_/ -_) (__/ _` | ' \ `\n"
-                     "`|___|_|_|_|_| \___|\___\__,_|_||_|`")
+    await alive.edit("`+-+-+-+-+-+-+-+`\n"
+                     "`|E|m|r|e|C|a|n|`\n"
+                     "`+-+-+-+-+-+-+-+`")
+
